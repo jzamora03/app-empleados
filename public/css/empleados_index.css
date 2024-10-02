@@ -1,0 +1,132 @@
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+p.text-muted {
+    font-size: 0.9rem;
+    margin-top: 0.2rem;
+    color: #6c757d;
+}
+
+.input-group-text {
+    background-color: #f8f9fa;
+    border-radius: 5px 0 0 5px;
+}
+
+input#search {
+    padding: 5px 10px;
+    border-radius: 0 7px 5px 0;
+    border: 1px solid #ccc;
+    font-size: 0.875rem;
+}
+
+.btn-outline-success, .btn-outline-secondary, .btn-outline-primary, .btn-outline-danger, .btn-outline-info {
+    border-radius: 7px !important;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+    vertical-align: middle; 
+    border-bottom: 1px solid #ddd;
+}
+
+thead th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+    vertical-align: middle; 
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f3f4f6;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.table-responsive {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.badge {
+    vertical-align: middle; 
+}
+
+.badge.bg-primary {
+    background-color: #007bff;
+}
+
+.badge.bg-pink {
+    background-color: #e83e8c;
+}
+
+.pagination {
+    justify-content: center;
+    padding-top: 2px; 
+}
+
+.page-item.active .page-link {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: white;
+}
+
+.page-link {
+    color: #007bff;
+    border: 1px solid #dee2e6;
+}
+
+.page-link:hover {
+    background-color: #f8f9fa;
+    color: #007bff;
+}
+
+.d-flex.justify-content-between.align-items-center {
+    margin-top: 0; /* Ajuste del margen superior a 0 */
+}
+
+
+/*******MODAL***************/
+
+.modal-content {
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+}
+
+.modal-header {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.modal-footer {
+    border-top: none;
+    justify-content: flex-end;
+    padding-top: 20px;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 10px;
+    padding: 10px;
+}
